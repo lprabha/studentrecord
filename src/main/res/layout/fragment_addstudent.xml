@@ -40,7 +40,8 @@
             android:layout_marginBottom="30dp"
             android:background="@color/colorLight"
             android:hint="Age"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:inputType="number"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -93,7 +94,8 @@
             android:layout_marginBottom="40dp"
             android:background="@color/colorLight"
             android:hint="Address"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:inputType="textEmailAddress"/>
 
         <Button
             android:id="@+id/btnAddStudent"
