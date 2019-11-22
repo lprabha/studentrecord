@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2F68DD</color>
+    <color name="colorPrimaryDark">#092D81</color>
+    <color name="colorAccent">#92B4F4</color>
+    <color name="colorNation">#5E7CE2</color>
+    <color name="colorPastel">#CFDEE7</color>
+    <color name="colorWeldon">#567086</color>
+    <color name="colorDark">#032941</color>
+    <color name="colorLight">#D1DDEE</color>
+    <color name="colorBackground">#efefef</color>
+</resources>

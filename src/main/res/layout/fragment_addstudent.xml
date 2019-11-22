@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="Student Details"
+            android:textColor="@color/colorDark"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/st_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorLight"
+            android:hint="Name"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/st_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorLight"
+            android:hint="Age"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Select Gender"
+            android:textColor="@color/colorWeldon" />
+
+        <RadioGroup
+            android:id="@+id/st_radioGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:text="Male"
+                android:textColor="@color/colorWeldon"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:text="Female"
+                android:textColor="@color/colorWeldon"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:text="Others"
+                android:textColor="@color/colorWeldon"
+                android:textSize="15sp" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/studentAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@color/colorLight"
+            android:hint="Address"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/btnAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorDark"
+            android:padding="20dp"
+            android:text="Save"
+            android:textColor="@color/colorLight"
+            android:textSize="8pt" />
+
+    </LinearLayout>
+</ScrollView>
